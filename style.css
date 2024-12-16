@@ -66,6 +66,11 @@ button:hover {
 .botao-menu {
     width: 60px;
     cursor: pointer;
+    transition: 1s;
+}
+
+.botao-menu:hover {
+    transform: translateY(-25px);
 }
 
 .circulo {
